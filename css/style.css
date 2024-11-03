@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.nav-link{
+    color: rgb(0, 0, 0);
+    transition: color 1s;
+}
+.nav-link:hover{
+    color: rgb(226, 23, 23);
+}
+hr{
+    border-top: 3px solid white; /* Cambia el grosor y el color */
+    width: 100%;
+}
+
+
+.background-image {
+    background-image: url('../img/chef_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+.content {
+    position: relative; 
+    color: white; 
+}
+h1 {
+    font-size: 2.5rem; 
+}
+p {
+    font-size: 1.25rem; 
+}
+
+.fech{
+    background-color: rgb(184, 45, 45);
+}
+.bg-card{
+    background-color: rgba(126, 124, 124, 0.151);
+}
+
+
+:root {
+    --Color-Primario: #F46767;
+    --Color-Secundrio: #C7C47D;
+}
+
+.bg-primary {
+    background: var(--Color-Primario) !important;
+}
+
+.btn-primary {
+    background: var(--Color-Primario) !important;
+    border: var(--Color-Primario) !important;
+}
+
+.bg-secondary {
+    background: var(--Color-Secundrio) !important;
+}
+
+
+.img-cards {
+    height: 100px;
+}
